@@ -16,7 +16,9 @@
 <body>
 
  <header>
-  <div class="navbar">
+
+  <!-- navbar -->
+  <div id="navbar" class="navbar">
    <div>
     <img class="logo-img" src="images/icons8-ableton.svg" alt="ableton-icon">
    </div>
@@ -39,7 +41,12 @@
      </ul>
     </div>
    </nav>
+   
+   <!-- mobile view menu btn -->
+   <div id="menu-expand" class="mobile-menu"><p>Menu <img src="images/icons8-expand-arrow-24.png" alt="expand-arrow"></p></div>
   </div>
+
+  <!-- hidden section when more+ clicked -->
   <div id="section-div" class="nav-more-section display-none">
    <section>
     <h3>More on Ableton.com:</h3>
@@ -83,13 +90,121 @@
     </ul>
    </section>
   </div>
+  
+  <!-- for mobile view -->
+  <div id="expand" class="to-expand display-none">
+   
+   <!-- mobile view logo and menu -->
+   <div class="mobile-header">
+    <div>
+     <img class="logo-img" src="images/icons8-ableton-50.png" alt="ableton-icon">
+    </div>
+    <div id="menu-collapse" class="mobile-menu"></div>
+   </div>
+   
+   <!-- mobile view links -->
+   <nav>
+    
+    <div>
+     <ul class="mobile-menu-div">
+      <li><a href="#">Live</a></li>
+      <li><a href="#">Push</a></li>
+      <li><a href="#">Link</a></li>
+      <li><a href="#">Shop</a></li>
+      <li><a href="#">Packs</a></li>
+      <li><a href="#">Help</a></li>
+      <li><a href="#">Try Live for free</a></li>
+      <li><a href="#">Log in or register</a></li>
+     </ul>
+    </div>
+
+    <div>
+     <h3 class="mobile-menu-h3">More on Ableton.com:</h3>
+     <ul class="section-1-ul">
+      <li class="section-1-li"><a href="#">Blog</a></li>
+      <li class="section-1-li"><a href="#">Ableton for the Classroom</a></li>
+      <li class="section-1-li"><a href="#">Ableton for Colleges and Universities</a></li>
+      <li class="section-1-li"><a href="#">Certified Training</a></li>
+      <li class="section-1-li"><a style="color: red;" href="#">About Ableton</a></li>
+      <li class="section-1-li"><a href="#">Jobs</a></li>
+      <li class="section-1-li"><a href="#">Apprenticeships</a></li>
+     </ul>
+    </div>
+
+   </nav>
+
+   <div id="section-div" class="nav-more-section">
+    <section class="section-2">
+     <h3>More from Ableton:</h3>
+
+     <div class="horizontal-scroll">
+      <ul class="section-2-ul">
+       <li class="section-2-li"><a href="#">
+        <div>
+         <h4>Loop</h4>
+         <p class="section-2-p">Watch Talks, Performances and <br>Features from Ableton's Summit for <br>Music Makers</p>
+        </div>
+       </a></li>
+       <li class="section-2-li"><a href="#">
+        <div>
+         <h4>Learning Music</h4>
+         <p class="section-2-p">Learn the fundamentals of music <br>making right in your browser.</p>
+        </div>
+       </a></li>
+       <li class="section-2-li"><a href="#">
+        <div>
+         <h4>Learning Synths</h4>
+         <p class="section-2-p">Get started with synthesis using a <br>web-based synth and <br>accompanying lessons.</p>
+        </div>
+       </a></li>
+       <li class="section-2-li"><a href="#">
+        <div>
+         <h4>Making Music</h4>
+         <p class="section-2-p">Some tips from 74 Creative <br>Strategies for Electronic Producers.</p>
+        </div>
+       </a></li>
+      </ul>
+     </div>
+
+    </section>
+   </div>
+  </div>
+
+  <!-- horizontal line after navbar -->
   <div class="navbar-seperator"></div>
+
+  <!-- 2nd navbar after the main navbar -->
+  <nav id="navbar-2" class="navbar-2">
+   <div>
+    <ul>
+     <li class="navbar-2-li"><a class="color-red" href="#">About</a></li>
+     <li class="navbar-2-li"><a href="#">Jobs</a></li>
+     <li class="navbar-2-li"><a href="#">Apprenticeships</a></li>
+    </ul>
+   </div>
+  </nav>
  </header>
+ 
+ <main>
+
+  <!-- hero image -->
+  <div class="hero-img-div">
+   <div class="hero-img">
+    <div class="hero-img-text">
+     <h1>Ableton</h1>
+    </div>
+   </div>
+  </div>
+ </main>
 
  <footer>
   <div>
    links
    <a target="_blank" href="https://icons8.com/icon/38788/ableton">Ableton</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+   <a href="https://www.pexels.com/photo/recording-studio-with-ultra-violet-florescent-164938/">Photo by Pixabay</a>
+   <a target="_blank" href="https://icons8.com/icon/85018/expand-arrow">Expand Arrow</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+   <a target="_blank" href="https://icons8.com/icon/86205/collapse-arrow">Collapse Arrow</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+    
   </div>
  </footer>
  <script src="script.js"></script>
