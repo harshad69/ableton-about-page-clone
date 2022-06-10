@@ -123,7 +123,6 @@ ul li {
 .navbar-2 {
  background-color: rgba(255, 255, 255, 0.5);
  padding: 0 2rem;
- position: fixed;
  top: 4rem;
  transition: top 0.3s;
 }
@@ -184,6 +183,130 @@ ul li {
  display: block;
 }
 
+.text-div {
+ margin: 2rem 22rem;
+}
+
+.text-div-h2 {
+ line-height: 2.4rem;
+ font-weight: 700;
+ font-size: 1.6rem;
+ letter-spacing: 0.01rem;
+}
+
+.text-div-a {
+ color: blue;
+}
+
+.text-div-p {
+ padding-top: 1rem;
+ font-size: 1.1rem;
+}
+
+.img-div {
+ margin: 8rem 0 10rem 0;
+}
+
+.yellow-color-div {
+ background-color: yellow;
+ position: absolute;
+ z-index: 0;
+ width: 58vw;
+ height: 58vw;
+ left: 41.3%;
+ opacity: 0.5;
+}
+
+.img-on-yellow-div1 {
+ background-image: url(images/pexels-clam-lo.jpg);
+ z-index: 1;
+ position: relative;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: 50% 50%;
+ display: inline-block;
+ vertical-align: middle;
+ width: 41vw;
+ height: 41vw;
+ margin-left: 10%;
+ margin-top: 10%;
+}
+
+.img-on-yellow-div2 {
+ background-image: url(images/pexels-dayvison-de-oliveira-silva.jpg);
+ z-index: 2;
+ position: relative;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: 50% 50%;
+ display: inline-block;
+ vertical-align: middle;
+ width: 30vw;
+ height: 15vw;
+ margin-left: 10%;
+ /* margin-top: 10%; */
+}
+
+.color-div1 {
+ background-color: rgb(182,255,192);
+ position: absolute;
+ z-index: 0;
+ width: 58vw;
+ height: 58vw;
+ opacity: 0.5;
+}
+
+.img-div1 {
+ background-image: url(images/pexels-cottonbro.jpg);
+ z-index: 1;
+ position: relative;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: 50% 50%;
+ display: inline-block;
+ vertical-align: middle;
+ width: 30vw;
+ height: 30vw;
+ margin-left: 10%;
+ margin-top: 10%;
+}
+
+.two-img-div {
+ position: relative;
+ z-index: 1;
+ vertical-align: middle;
+ display: inline-block;
+ margin-left: 10%;
+ margin-top: 10%;
+}
+
+.img-div2 {
+ background-image: url(images/pexels-brett-sayles.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: 50% 50%;
+ width: 32vw;
+ height: 17vw;
+}
+
+.img-div3 {
+ background-image: url(images/pexels-pixabay.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: 50% 50%;
+ width: 32vw;
+ height: 17vw;
+ margin-top: 20%;
+}
+
+.video-div {
+ width: 500px;
+ margin-right: auto;
+ margin-left: auto;
+ margin-top: 4rem;
+ margin-bottom: 4rem;
+}
+
 
 @media screen and (max-width: 1000px) {
  .navbar-links {
@@ -241,6 +364,35 @@ ul li {
   flex-direction: row;
  }
 
+ .text-div {
+  margin: 2rem 8rem;
+ }
+}
+
+@media screen and (max-width: 795px) {
+ .hero-img-text {
+  font-size: 2rem;
+ }
+
+ .text-div {
+  margin: 2rem 3.5rem;
+ }
+
+ .text-div-h2 {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+ }
+
+ .text-div-p {
+  font-size: 0.9rem;
+ }
+
+ .video-div {
+  width: 300px;
+ }
+ .video-div video {
+  width: 300px;
+ }
 }
 
 

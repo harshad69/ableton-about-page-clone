@@ -40,13 +40,13 @@ menuExpand.addEventListener('click', menuShow);
 menuCollapse.addEventListener('click', menuShow);
 
 
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar-2").style.top = "0";
-  } else {
-    document.getElementById("navbar-2").style.top = "-4rem";
-  }
-  prevScrollpos = currentScrollPos;
-}
+// var prevScrollpos = window.pageYOffset;
+// window.onscroll = function() {
+//   var currentScrollPos = window.pageYOffset;
+//   if (prevScrollpos > currentScrollPos) {
+//     document.getElementById("navbar-2").style.top = "0";
+//   } else {
+//     document.getElementById("navbar-2").style.top = "-4rem";
+//   }
+//   prevScrollpos = currentScrollPos;
+// }
