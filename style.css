@@ -303,8 +303,105 @@ ul li {
  width: 500px;
  margin-right: auto;
  margin-left: auto;
+ /* margin-top: 4rem; */
+ /* margin-bottom: 4rem; */
+}
+
+.big-img-div {
+ margin-left: auto;
+ margin-right: auto;
+ width: 70vw;
  margin-top: 4rem;
  margin-bottom: 4rem;
+}
+
+.img {
+ width: 70vw;
+ height: 40vw;
+}
+
+.purple-color-div {
+ background-color: purple;
+ position: absolute;
+ z-index: 0;
+ width: 58vw;
+ height: 58vw;
+ left: 20%;
+ opacity: 0.4;
+}
+
+.img-on-purple-div1 {
+ background-image: url(images/pexels-cadeau-maestro.jpg);
+ z-index: 1;
+ position: relative;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: 50% 50%;
+ display: inline-block;
+ vertical-align: middle;
+ width: 36vw;
+ height: 22vw;
+ margin-left: 10%;
+ margin-top: 10%;
+}
+
+.img-on-purple-div2 {
+ background-image: url(images/pexels-christina-morillo.jpg);
+ z-index: 2;
+ position: relative;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: 50% 50%;
+ display: inline-block;
+ vertical-align: middle;
+ width: 41vw;
+ height: 41vw;
+ margin-left: 11%;
+ margin-top: 10%;
+}
+
+.img-div5 {
+ width: 80vw;
+ height: 40vw;
+ display: flex;
+ flex-direction: row;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.blue-color-div {
+ background-color: lightblue;
+ width: 40vw;
+ height: 40vw;
+}
+
+.img-on-blue-div1 {
+ background-image: url(images/pexels-fauxels.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: 50% 50%;
+ width: 40vw;
+ height: 40vw;
+}
+
+.text-in-blue-div {
+ width: 30vw;
+ height: 30vw;
+ margin-top: 25%;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.text-in-blue-div-h2 {
+ font-size: 1.8rem;
+ letter-spacing: 0.01rem;
+ margin-bottom: 2rem;
+}
+
+.text-in-blue-div-a {
+ color: rgb(52, 55, 219);
+ font-size: 1.4rem;
+ font-weight: 600;
 }
 
 
@@ -367,6 +464,45 @@ ul li {
  .text-div {
   margin: 2rem 8rem;
  }
+
+ .img-div5 {
+  width: 82vw;
+  height: 80vw;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ .img-on-blue-div1 {
+  width: 82vw;
+  height: 50vw;
+ }
+
+ .blue-color-div {
+  width: 82vw;
+  height: 30vw;
+ }
+ 
+ .text-in-blue-div {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  width: 63vw;
+  height: 30vw;
+ }
+
+ .text-in-blue-div-h2 {
+  font-size: 1.1rem;
+ }
+
+ .text-in-blue-div-a {
+  font-size: 1rem;
+ }
+
+ .text-in-blue-div-a img {
+  width: 1rem;
+  height: 1rem;
+ }
 }
 
 @media screen and (max-width: 795px) {
@@ -393,6 +529,29 @@ ul li {
  .video-div video {
   width: 300px;
  }
+
+ 
+}
+
+.links {
+ margin-top: 6rem;
+ color: black;
+}
+
+.links p {
+ font-size: 1rem;
+}
+
+.links a {
+ font-size: 0.8rem;
+ color: black;
+ padding-left: 2rem;
+}
+
+.links a:hover {
+ color: blue;
+ font-size: 0.9rem;
+ transition: 0.5s ease-out;
 }
 
 
