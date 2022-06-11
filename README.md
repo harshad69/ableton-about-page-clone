@@ -2,10 +2,12 @@
 
 live webiste link https://harshad69.github.io/ableton-home-page-clone/
 
-start date of this project 08/06/2022 -- today i did the navbar for desktop 
+08/06/2022 -- start date of this project. today I did the navbar for desktop .
 
-09/06/2022 -- today i did navbar responsive, added hero image.
+09/06/2022 -- today I did navbar responsive, added hero image.
 
-10/06/2022 -- today i completed 80% of the page.
+10/06/2022 -- today I completed 80% of the page.
 
-11/06/2022 -- today i completed the project.
+11/06/2022 -- today I completed the project.
+
+I got the idea from [frontend practise](https://www.frontendpractice.com/projects/ableton) to work on this project. I got to learn how the positon elements work, how the z-index work. In future I intend to make the 2nd navbar sticky.
