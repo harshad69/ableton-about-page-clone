@@ -1,6 +1,6 @@
 # ableton-home-page-clone
 
-live webiste link https://harshad69.github.io/ableton-about-page-clone/
+live webiste link https://hxrshxd.github.io/ableton-about-page-clone/
 
 08/06/2022 -- start date of this project. today I did the navbar for desktop .
 
